@@ -21,7 +21,7 @@ A hand-made sample of 10 customers (for practice, not real shop data):
 | Low-spend | about 13K | about 2.2 | Occasional shoppers | Discount offers |
 | High-spend | about 50.4K | about 9.4 | Regular shoppers | New-collection alerts |
 
-Cost (inertia): 59.2
+Cost (inertia): 59.2, the sum of squared distances from each customer to its group centre. A lower value means tighter groups.
 
 ## Limitations and Improvements
 - Only 10 sample customers, so results are illustrative.
